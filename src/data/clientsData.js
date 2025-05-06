@@ -1,54 +1,78 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
-import SonyImage from '../images/brands/sony_gray.png';
-import AdidasImage from '../images/brands/adidas_gray.png';
-import FilaImage from '../images/brands/fila_gray.png';
-import NBImage from '../images/brands/nb_gray.png';
-import SamsungImage from '../images/brands/samsung_gray.png';
-import CanonImage from '../images/brands/canon_gray.png';
-import PumaImage from '../images/brands/puma_gray.png';
+import LaravelImage from "../images/brands/laravel.png";
+import PhpImage from "../images/brands/php.png";
+import CodeIgniterImage from "../images/brands/codeigniter.png";
+import VueJSImage from "../images/brands/vuejs.png";
+import ReactImage from "../images/brands/reactjs.png";
+import RestApiImage from "../images/brands/rest_api.png";
+import TailwindCSSImage from "../images/brands/tailwindcss.png";
+import JavaScriptImage from "../images/brands/javascript.png";
+import AIImage from "../images/brands/ai.png";
+import MySQLImage from "../images/brands/mysql.png";
+import PostgreSQLImage from "../images/brands/postgresql.png";
+import AwsImage from "../images/brands/aws.png";
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const clientsHeading = "Technical Skills";
 
 export const clientsData = [
-	{
-		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
-	},
-	{
-		id: 2,
-		title: 'Sony',
-		img: SonyImage,
-	},
-	{
-		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
-	},
-	{
-		id: 4,
-		title: 'FILA',
-		img: FilaImage,
-	},
-	{
-		id: 5,
-		title: 'NB',
-		img: NBImage,
-	},
-	{
-		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
-	},
-	{
-		id: 7,
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
-	},
+  {
+    id: 1,
+    title: "PHP",
+    img: LaravelImage,
+  },
+  {
+    id: 2,
+    title: "Laravel",
+    img: PhpImage,
+  },
+  {
+    id: 3,
+    title: "CodeIgniter",
+    img: CodeIgniterImage,
+  },
+  {
+    id: 4,
+    title: "VueJS",
+    img: VueJSImage,
+  },
+  {
+    id: 5,
+    title: "React JS",
+    img: ReactImage,
+  },
+  {
+    id: 6,
+    title: "REST API",
+    img: RestApiImage,
+  },
+  {
+    id: 7,
+    title: "Tailwind CSS",
+    img: TailwindCSSImage,
+  },
+  {
+    id: 8,
+    title: "JavaScript",
+    img: JavaScriptImage,
+  },
+  {
+    id: 9,
+    title: "AI Integration",
+    img: AIImage,
+  },
+  {
+    id: 10,
+    title: "MySQL",
+    img: MySQLImage,
+  },
+  {
+    id: 11,
+    title: "PostgreSQL",
+    img: PostgreSQLImage,
+  },
+  {
+    id: 12,
+    title: "AWS",
+    img: AwsImage,
+  },
 ];
